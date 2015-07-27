@@ -1,0 +1,100 @@
+header {
+  width: 100%;
+  height: 30px;
+  background: -webkit-linear-gradient(white, #D3D3D3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #D3D3D3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #D3D3D3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #D3D3D3); /* Standard syntax */
+}
+
+header .header-left {
+  float: left;
+  padding-top: 4px;
+  padding-left: 10px;
+}
+
+header .header-right {
+  float: right;
+}
+
+nav {
+  clear: both;
+}
+
+li {
+  display: inline;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.navbar {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.navbar-default {
+  border-color: white;
+}
+
+.navbar-default .navbar-brand {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 33pt;
+  color: black;
+  position: relative;
+  bottom: 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-family: 'Arial', sans-serif;
+  font-weight: 500;
+  font-size: 10pt;
+  color: black;
+}
+
+.carousel {
+  width: 100%;
+  height: 400px;
+  background-color: #E4E4E4;
+}
+
+.thumbnails {
+  text-align: center;
+}
+
+.row > div {
+  margin-top: 15px;
+}
+
+.row > div > p {
+  color: #858585;
+}
+
+.btn-default {
+  color: white;
+  background-color: black;
+  width: 75%;
+  padding: 0px 12px;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+.image-placeholder {
+  background-color: #E4E4E4;
+  height: 180px;
+  width: 100%;
+}
+
+.promotion-bar {
+  color: white;
+  background-color: #FF6800;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 8pt;
+  font-weight: bold;
+  text-align: center;
+  height: 30px;
+  padding-top: 7px;
+}
