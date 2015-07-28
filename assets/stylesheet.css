@@ -56,6 +56,10 @@ li {
   color: black;
 }
 
+.navbar-default .navbar-nav > li > a:hover {
+  color: blue;
+}
+
 .carousel {
   width: 100%;
   height: 400px;
@@ -70,7 +74,7 @@ li {
   margin-top: 15px;
 }
 
-.row > div > p {
+.thumbnails .row > div > p {
   color: #858585;
 }
 
@@ -81,6 +85,7 @@ li {
   padding: 0px 12px;
   font-weight: bold;
   font-size: 10pt;
+  border-color: black;
 }
 
 .image-placeholder {
@@ -111,6 +116,9 @@ li {
   padding-top: 4px;
 }
 
+footer {
+  margin-bottom: 20px;
+}
 .footer-label {
   font-weight: bold;
   font-size: 13px;
@@ -128,4 +136,30 @@ li {
   font-weight: bold;
   color: white;
   width: 50px;
+}
+
+.footer-icons {
+  padding-top: 12px;
+}
+
+.footer-icons img {
+  margin-right: 10%;
+}
+
+.like-banner {
+  width: 100%;
+  margin-top: 13px;
+  padding: 25px;
+  background-color: #F4F4F4;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+.like-banner a {
+  color: #FF5E00;
+}
+
+.slick-img img {
+  margin: auto;
 }

@@ -5,6 +5,7 @@
   <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css"/>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 
@@ -49,13 +50,20 @@
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#">BUTTON</a></li>
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+      </div>
+    </div>
   </nav>
 
-
   <section class="carousel">
+    <div class="slick-test">
+      <div class="slick-img"><img src="http://lorempixel.com/400/400/cats/1"></div>
+      <div class="slick-img"><img src="http://lorempixel.com/400/400/cats/3"></div>
+      <div class="slick-img"><img src="http://lorempixel.com/400/400/cats/4"></div>
+
+    </div>
   </section>
+  <here></here>
+
   <div class="promotion-bar">P R O M O T I O N</div>
 
   <section class="thumbnails container">
@@ -90,40 +98,56 @@
   <div class="spacer"></div>
 
   <footer class="container">
-    <div class="col-sm-3">
-      <p class="footer-label">About Us</p>
-      <p class="footer-link">Shipping &amp; Delivery</p>
-      <p class="footer-link">Payments &amp; Pricing</p>
-      <p class="footer-link">Refund Policy</p>
-      <p class="footer-link">Exchange Policy</p>
-      <p class="footer-link">Contact Us</p>
+    <div class="like-banner">
+      <a href="#">LIKE US</a> ON FACEBOOK FOR EXCLUSIVE OFFERS AND UPDATES
     </div>
-    <div class="col-sm-3">
-      <p class="footer-label">Need Help?</p>
-      <p class="footer-link">Our Story</p>
-      <p class="footer-link">Reviews</p>
-      <p class="footer-link">Testimonials</p>
-      <p class="footer-link">Terms of Use</p>
-      <p class="footer-link">Videos</p>
-    </div>
-    <div class="col-sm-3">
-      <p class="footer-label">About Us</p>
-      <p class="footer-link">Shipping &amp; Delivery</p>
-      <p class="footer-link">Payments &amp; Pricing</p>
-      <p class="footer-link">Refund Policy</p>
-      <p class="footer-link">Exchange Policy</p>
-      <p class="footer-link">Contact Us</p>
-    </div>
-    <div class="col-sm-3">
-      <p class="footer-label">Stay Connected</p>
-      <div class="input-group">
-        <input type="text" class="form-control">
-        <span class="input-group-btn">
-        <button class="btn btn-default btn-connect" type="button">GO</button>
+    <div class="row">
+      <div class="col-sm-3">
+        <p class="footer-label">About Us</p>
+        <p class="footer-link">Shipping &amp; Delivery</p>
+        <p class="footer-link">Payments &amp; Pricing</p>
+        <p class="footer-link">Refund Policy</p>
+        <p class="footer-link">Exchange Policy</p>
+        <p class="footer-link">Contact Us</p>
       </div>
-   </span>
-</div>
+      <div class="col-sm-3">
+        <p class="footer-label">Need Help?</p>
+        <p class="footer-link">Our Story</p>
+        <p class="footer-link">Reviews</p>
+        <p class="footer-link">Testimonials</p>
+        <p class="footer-link">Terms of Use</p>
+        <p class="footer-link">Videos</p>
+      </div>
+      <div class="col-sm-3">
+        <p class="footer-label">About Us</p>
+        <p class="footer-link">Shipping &amp; Delivery</p>
+        <p class="footer-link">Payments &amp; Pricing</p>
+        <p class="footer-link">Refund Policy</p>
+        <p class="footer-link">Exchange Policy</p>
+        <p class="footer-link">Contact Us</p>
+      </div>
+      <div class="col-sm-3">
+        <p class="footer-label">Stay Connected</p>
+        <div class="input-group">
+          <input type="text" placeholder="example@email.com" class="form-control">
+          <span class="input-group-btn">
+          <button class="btn btn-default btn-connect" type="button">GO</button>
+        </div>
+        <div class="footer-icons">
+          <a href="#"><img src="assets/twitter.png"></a>
+          <a href="#"><img src="assets/facebook.png"></a>
+          <a href="#"><img src="assets/pinterest.png"></a>
+          <a href="#"><img src="assets/youtube.png"></a>
+        </div>
+      </div>
     </div>
   </footer>
 
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js"></script>
+  <script type="text/javascript">
+    $('.slick-test').slick({
+      // arrows: false
+      appendArrows: 'here'
+    });
+  </script>
 </body>
