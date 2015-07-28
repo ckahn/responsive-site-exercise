@@ -1,21 +1,18 @@
 header {
   width: 100%;
-  height: 30px;
+  min-height: 30px;
   background: -webkit-linear-gradient(white, #F4F4F4); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(white, #F4F4F4); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(white, #F4F4F4); /* For Firefox 3.6 to 15 */
   background: linear-gradient(white, #F4F4F4); /* Standard syntax */
 }
 
-header .header-left {
-  display: block;
-  padding-top: 4px;
-  padding-left: 10px;
+header .header-content {
+  padding-bottom: 10px;
 }
 
-header .header-right {
-  float: right;
-  text-align: left;
+header .header-notification {
+
 }
 
 nav {
@@ -26,12 +23,6 @@ li {
   display: inline;
 }
 
-.vcenter {
-  display: inline-block;
-  vertical-align: middle;
-  float: none;
-}
-
 .navbar {
   margin-top: 15px;
   margin-bottom: 10px;
@@ -39,6 +30,13 @@ li {
 
 .navbar-default {
   border-color: white;
+}
+
+.account-dropdown {
+  margin-top: -4px;
+  border: none;
+  background-color: transparent;
+  font-size: 9pt;
 }
 
 .navbar-default .navbar-brand {
@@ -58,6 +56,17 @@ li {
 
 .navbar-default .navbar-nav > li > a:hover {
   color: blue;
+}
+
+
+.btn-bag-icon {
+  margin-left: 14px;
+}
+
+.btn-bag-items {
+  font-size: 8pt;
+  padding-bottom: 7px;
+  background-color: #EBEBEB;
 }
 
 .carousel {
@@ -119,6 +128,7 @@ li {
 footer {
   margin-bottom: 20px;
 }
+
 .footer-label {
   font-weight: bold;
   font-size: 13px;
@@ -169,6 +179,11 @@ footer {
   position: absolute;
   top: 168px;
   z-index: 1;
+}
+
+.carousel-arrow:hover {
+  width: 45;
+  cursor: hand;
 }
 
 .arrow-right {
