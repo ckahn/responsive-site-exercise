@@ -152,12 +152,20 @@
       arrows: false
     });
 
-    $($('.arrow-left')[0]).on('click', function () {
+    $('.arrow-left').on('click', function () {
       $el.slick('slickPrev');
     });
 
-    $($('.arrow-right')[0]).on('click', function () {
+    $('.arrow-right').on('click', function () {
       $el.slick('slickNext');
+    });
+
+    $el.on('swipe', function(event, slick, direction){
+      if (direction === 'left') {
+        $el.slick('slickPrev');
+      } else if (direction === 'right') {
+        $el.slick('slickNext');
+      }
     });
   </script>
 </body>
