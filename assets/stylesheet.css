@@ -74,7 +74,7 @@ li {
   color: #858585;
 }
 
-.btn-default {
+.btn-info {
   color: white;
   background-color: black;
   width: 75%;
@@ -120,4 +120,12 @@ li {
   color: #525151;
   line-height: .6em;
   font-size: 9pt;
+}
+
+.btn-connect {
+  height: 34px;
+  background-color: #FF5E00;
+  font-weight: bold;
+  color: white;
+  width: 50px;
 }
