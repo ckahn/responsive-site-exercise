@@ -163,3 +163,24 @@ footer {
 .slick-img img {
   margin: auto;
 }
+
+.carousel-arrow {
+  width: 43px;
+  position: absolute;
+  top: 168px;
+  z-index: 1;
+}
+
+.arrow-right {
+  right: 45px;
+}
+
+.arrow-left {
+  left: 45px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}

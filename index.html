@@ -55,14 +55,15 @@
   </nav>
 
   <section class="carousel">
+    <img class="carousel-arrow arrow-right" src="assets/arrow.png">
+    <img class="carousel-arrow arrow-left" src="assets/arrow.png">
     <div class="slick-test">
       <div class="slick-img"><img src="http://lorempixel.com/400/400/cats/1"></div>
       <div class="slick-img"><img src="http://lorempixel.com/400/400/cats/3"></div>
       <div class="slick-img"><img src="http://lorempixel.com/400/400/cats/4"></div>
-
+      <div class="slick-img"><img src="http://lorempixel.com/400/400/cats/5"></div>
     </div>
   </section>
-  <here></here>
 
   <div class="promotion-bar">P R O M O T I O N</div>
 
@@ -145,9 +146,18 @@
 
   <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.5.8/slick.min.js"></script>
   <script type="text/javascript">
-    $('.slick-test').slick({
-      // arrows: false
-      appendArrows: 'here'
+    $el = $('.slick-test');
+
+    $el.slick({
+      arrows: false
+    });
+
+    $($('.arrow-left')[0]).on('click', function () {
+      $el.slick('slickPrev');
+    });
+
+    $($('.arrow-right')[0]).on('click', function () {
+      $el.slick('slickNext');
     });
   </script>
 </body>
