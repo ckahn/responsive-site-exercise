@@ -1,20 +1,21 @@
 header {
   width: 100%;
   height: 30px;
-  background: -webkit-linear-gradient(white, #D3D3D3); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(white, #D3D3D3); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(white, #D3D3D3); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(white, #D3D3D3); /* Standard syntax */
+  background: -webkit-linear-gradient(white, #F4F4F4); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white, #F4F4F4); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white, #F4F4F4); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white, #F4F4F4); /* Standard syntax */
 }
 
 header .header-left {
-  float: left;
+  display: block;
   padding-top: 4px;
   padding-left: 10px;
 }
 
 header .header-right {
   float: right;
+  text-align: left;
 }
 
 nav {
@@ -58,7 +59,7 @@ li {
 .carousel {
   width: 100%;
   height: 400px;
-  background-color: #E4E4E4;
+  background-color: #F4F4F4;
 }
 
 .thumbnails {
@@ -83,7 +84,7 @@ li {
 }
 
 .image-placeholder {
-  background-color: #E4E4E4;
+  background-color: #F4F4F4;
   height: 180px;
   width: 100%;
 }
@@ -97,4 +98,26 @@ li {
   text-align: center;
   height: 30px;
   padding-top: 7px;
+}
+
+.spacer {
+  width: 100%;
+  height: 300px;
+  background-color: #F4F4F4;
+  margin: 20px 0px 10px 0px;
+}
+
+.header-content {
+  padding-top: 4px;
+}
+
+.footer-label {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.footer-link {
+  color: #525151;
+  line-height: .6em;
+  font-size: 9pt;
 }
